@@ -1,0 +1,28 @@
+{
+  "name": "pierfrancescoelia",
+  "version": "1.0.0",
+  "description": "Pierfrancesco Elia CV Website",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierfrancescoElia/pierfrancescoelia.com.git"
+  },
+  "keywords": [
+    "pierfrancesco",
+    "elia",
+    "curriculum"
+  ],
+  "author": "Pierfrancesco Elia",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/PierfrancescoElia/pierfrancescoelia.com/issues"
+  },
+  "homepage": "https://github.com/PierfrancescoElia/pierfrancescoelia.com#readme"
+}
