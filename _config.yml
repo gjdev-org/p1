@@ -7,3 +7,5 @@ exclude:
 - node_modules
 - gulpfile.js
 - assets/vendor
+- README.md
+- LICENSE

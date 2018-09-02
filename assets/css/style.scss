@@ -1,5 +1,5 @@
 ---
-# Stylesheet
+# Stylesheet
 ---
 /* Fonts */
 
@@ -7,7 +7,6 @@
 
 /* Colors */
 @import "colors.scss";
-@import "colors/default.scss";
 
 /* Typography */
 @import "typography.scss";
@@ -17,11 +16,6 @@
 
 /* Basic styles */
 @import "basic.scss";
-
-/* Samuel */
-@import "layouts/samuel.scss";
-
-
 
 /*------------------------------------------------------------------
 [VCard Modules]
@@ -2263,3 +2257,11 @@ footer.light {
   overflow: visible;
   background: url(../images/preloader.gif) center center no-repeat #666;
 }
+
+
+/* Samuel */
+@import "layouts/samuel.scss";
+
+
+/* Default Profile */
+@import "colors/default.scss";
