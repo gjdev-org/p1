@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Pierfrancesco Elia CV Website",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.0",

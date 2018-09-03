@@ -304,7 +304,7 @@
                             $(formMessages).addClass('alert alert-success');
 
                             // Set the message text.
-                            $(formMessages).text(response);
+                            $(formMessages).text('Yay! Your message has been sent, I will be happy to reply soon!');
 
                             // Clear the form.
                             $('#name').val('');
@@ -361,9 +361,9 @@
 
                     // Create a map object, and include the MapTypeId to add
                     // to the map type control.
-                    var $latlng = new google.maps.LatLng(45.371484, 7.794872),
+                    var $latlng = new google.maps.LatLng(45.366667,7.766667),
                         $mapOptions = {
-                            zoom: 13,
+                            zoom: 9,
                             center: $latlng,
                             panControl: false,
                             zoomControl: true,
