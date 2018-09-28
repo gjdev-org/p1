@@ -4,6 +4,7 @@
   "description": "Pierfrancesco Elia CV Website",
   "main": "index.js",
   "dependencies": {
+    "hoek": "^5.0.4",
     "npm": "^6.4.1"
   },
   "devDependencies": {

@@ -19,5 +19,5 @@ gulp.task('css', function(){
 	    .pipe(gulp.dest('assets/css'));
 });
 
-gulp.task('default',['js','css'],function(){
+gulp.task('assets',['js','css'],function(){
 });
