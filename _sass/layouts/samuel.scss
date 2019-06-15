@@ -9,12 +9,18 @@
 }
 
 /* Timeline */
+.timeline-samuel-01,
 .timeline-samuel-02,
 .timeline-samuel-03,
 .timeline-samuel-04 {
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
+}
+.timeline-samuel-01 {
+  background: url("../../assets/images/timeline/castello_aglie.jpeg");
+  background-position: center;
+  background-size: cover;
 }
 .timeline-samuel-02 {
   background: url("../../assets/images/timeline/politecnico_torino.jpg");
