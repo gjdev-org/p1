@@ -90,7 +90,7 @@ layout: default
                   </div>
                   <div class="fullwidth box">
                      <div class="one"><p class="uppercase text-nowrap">Age:</p></div>
-                     <div class="two"><p id="age">19</p></div>
+                     <div class="two"><p id="age">20</p></div>
                   </div>
                   <div class="fullwidth box">
                      <div class="one"><p class="uppercase">From:</p></div>
@@ -222,12 +222,4 @@ layout: default
       </div>
 
    </section>
-
 </div>
-
-<script type="text/javascript">
-  $(document).on('ready pjax:success', function() {
-    alert("Ci sono!");
-    $("#age").html(new Date(new Date - new Date('1999-08-03')).getFullYear()-1970);
-  });
-</script>
