@@ -1,5 +1,11 @@
-sass:
-  style: compressed
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+      sass:
+
+style: compressed
 
 exclude:
 - package.json
@@ -9,3 +15,13 @@ exclude:
 - assets/vendor
 - README.md
 - LICENSE
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
