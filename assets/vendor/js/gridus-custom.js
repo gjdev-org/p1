@@ -1,9 +1,4 @@
-$(document).on('ready pjax:success', function() {
-    alert("Ci sono!");
-    $("#age").html(new Date(new Date - new Date('1999-08-03')).getFullYear()-1970);
- });
-  
-  (function ($) {
+(function ($) {
     'use strict';
 
     /** Init settings **/
