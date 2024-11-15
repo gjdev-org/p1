@@ -1,6 +1,6 @@
 defaults:
   - scope:
-      path: "assets/images"
+      path: "https://gjdev-org.github.io/p1/assets/images"
     values:
       image: true
       sass:
